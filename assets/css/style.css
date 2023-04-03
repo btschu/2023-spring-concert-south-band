@@ -1033,7 +1033,7 @@ section {
 }
 
 #logo img{
-  height: 150px;
+  max-height: 150px;
   border-radius: 16px;
 }
 
