@@ -611,7 +611,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
@@ -620,7 +620,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
@@ -628,7 +628,7 @@ section {
   font-weight: 500;
   padding: 0;
   line-height: 1px;
-  margin: 0 0 5px 0;
+  /* margin: 0 0 5px 0; */
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
@@ -709,10 +709,10 @@ section {
   padding: 20px;
   text-align: center;
   margin: 15px 0;
-  /* box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2); */
-  box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45) !important;
+  box-shadow: 0 0 .5rem 0 gold;
+  /* box-shadow: inset 0 3px 8px gold !important; */
   /* background: black !important; */
-  /* border-radius: 16px !important; */
+  border-radius: 16px !important;
   transition: all ease-in-out 0.3s;
 }
 
@@ -808,9 +808,9 @@ section {
   margin-right: 0;
 }
 
-.program .program-item {
+/* .program .program-item {
   margin-top: 50px;
-}
+} */
 
 .program .program-content {
   /* margin-left: 300px; */
