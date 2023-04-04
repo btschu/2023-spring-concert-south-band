@@ -38,7 +38,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-cente">
+  <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
       <h1 class="logo me-auto me-lg-0"><a href="index.html"><span>2023</span> Spring Concert</a></h1>
@@ -51,6 +51,15 @@
           <li><a class="nav-link scrollto" href="#program">Program</a></li>
           <li><a class="nav-link scrollto" href="#students">Students</a></li>
           <!-- <li><a class="nav-link scrollto" href="#directors">Directors</a></li> -->
+          <li>
+            <a 
+              class="nav-link" 
+              href=""
+              target="_blank" 
+              class="btn-book animated fadeInUp mt-3">
+              Live Stream
+            </a>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -67,7 +76,10 @@
           <h1 class="text-center mb-2"><span>South High Band</span><br><br>Spring Concert</h1><br><br>
           <!-- <hr> -->
           <!-- <h2 class="text-center mb-3">Featuring the South Triad Elementary, Junior High, and High School Bands!</h2> -->
-          <h2 class="text-center">April 6, 2023<br>7:00PM<br>South High Auditorium</h2><br><br>
+          <h2 class="text-center">April 6, 2023<br>7:00PM<br>South High Auditorium</h2>
+          <div id="logo" class="me-lg-0 d-flex justify-content-center mt-4">
+            <img src="assets/img/bison.png" alt="bison-logo" class="bison">
+          </div><br>
           <!-- <hr> -->
           <h2 class="text-center text-decoration-underline">Directors</h2>
           <h2 class="text-center">Gino Hernandez<br>Brandon Schumacher</h2>
@@ -101,6 +113,57 @@
         </div> -->
 
         <div class="row program-container" data-aos="fade-up" data-aos-delay="200">
+
+          <!--***** South Jazz Combo Program *****-->
+          <div class="col-lg-12 program-item filter-s2">
+            <h2 class="text-center mb-4"><span>South Jazz Combo</span></h2>
+            
+            <!-- <div class="table-responsive col-lg-8 col-sm-12 m-auto">
+              <table class="table table-dark table-striped text-light table-borderless">
+                <tbody>
+                  <tr class="">
+                    <td>Song</td>
+                    <td class="text-end">Composer</td>
+                  </tr>
+                  <tr class="">
+                    <td>Song</td>
+                    <td class="text-end">Composer</td>
+                  </tr>
+                  <tr class="">
+                    <td>Song</td>
+                    <td class="text-end">Composer</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div> -->
+            
+
+            <div class="program-content">
+              <a href="#">Song</a><span>Composer</span>
+            </div>
+            <!-- <div class="soloists">
+              Soloists: Hedrey Barron Pando, Aaron Walker, and Jason Giguere
+            </div> -->
+          </div>
+
+          <div class="col-lg-12 program-item filter-s2">
+            <div class="program-content">
+              <a href="#">Song</a><span>Composer</span>
+            </div>
+            <!-- <div class="soloists">
+              Soloists: Madison O'Briant, Parker Brennan, Dayonna Smith, and Charlie Mota
+            </div> -->
+          </div>
+
+          <div class="col-lg-12 program-item filter-s2">
+            <div class="program-content">
+              <a href="#">Song</a><span>Composer</span>
+            </div>
+            <!-- <div class="soloists">
+              Soloists: Caleb Borges, Charlie Mota, and Madison O'Briant
+            </div> -->
+          </div>
+          <!--***** End South Jazz Combo Program *****-->
 
           <!--***** South Jazz II Program *****-->
           <div class="col-lg-12 program-item filter-s2">
@@ -207,7 +270,7 @@
             </div> -->
           </div>
 
-          <div class="col-lg-12 program-item filter-s1">
+          <div class="col-lg-12 program-item filter-s1 mb-4">
             <div class="program-content">
               <a href="#">Abram's Pursuit</a><span>Holsinger</span>
             </div>
@@ -236,6 +299,7 @@
               <li data-filter="*" class="filter-active-students">All</li>
               <li data-filter=".filter-s1-students">Jazz I</li>
               <li data-filter=".filter-s2-students">Jazz II</li>
+              <li data-filter=".filter-jc-students">Jazz Combo</li>
               <li data-filter=".filter-pe-students">Percussion Ensemble</li>
               <li data-filter=".filter-cb-students">Concert Band</li>
             </ul>
@@ -247,7 +311,7 @@
           <!--***** South Jazz I Students *****-->
           <div class="col-lg-4 col-sm-12 mt-lg-0 students-item filter-s1-students">
             <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span class="text-center">South Jazz I</span>
+              <span class="text-center">Jazz I</span>
 
               <h4>Saxophone</h4>
               <ul>
@@ -304,7 +368,7 @@
           <!--***** South Jazz II Students ***** -->
           <div class="col-lg-4 col-sm-12 students-item filter-s2-students">
             <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span class="text-center">South Jazz II</span>
+              <span class="text-center">Jazz II</span>
 
               <h4>Saxophone</h4>
               <ul>
@@ -353,6 +417,41 @@
             </div>
           </div>
           <!--***** End South Jazz II Students ***** -->
+          
+          <!--***** South Jazz combo Students ***** -->
+          <div class="col-lg-4 col-sm-12 students-item filter-jc-students">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span class="text-center">Jazz Combo</span>
+
+              <h4>Saxophone</h4>
+              <ul>
+                <li>Jason Giguere</li>
+                <li>Madison O'Briant</li>
+              </ul>
+
+              <h4>Trombone</h4>
+              <ul>
+                <li>Jamie Jones</li>
+              </ul>
+
+              <h4>Piano</h4>
+              <ul>
+                <li>Dillon Smith</li>
+              </ul>
+
+              <h4>Bass Guitar</h4>
+              <ul>
+                <li>Camryn Bolton</li>
+              </ul>
+              
+              <h4>Drums</h4>
+              <ul>
+                <li>Courtney Schwab</li>
+              </ul>
+
+            </div>
+          </div>
+          <!--***** End South Jazz combo Students ***** -->
 
           <!--***** Perc Ens *****-->
           <div class="col-lg-4 col-sm-12 mt-lg-0 students-item filter-pe-students">

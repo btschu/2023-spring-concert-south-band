@@ -254,7 +254,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: gold;
+  color: #ffd700;
 }
 
 .navbar .dropdown:hover>ul {
@@ -398,10 +398,19 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
+  /* background-color: #242526; */
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 0;
+}
+
+.bison {
+  /* -webkit-filter: invert(100%);
+  filter: invert(100%); */
+  filter: invert(86%) sepia(29%) saturate(2328%) hue-rotate(358deg) brightness(100%) contrast(105%);
+  height: 100px;
+  object-fit: contain;
 }
 
 #hero:before {
@@ -660,7 +669,7 @@ section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 } */
 
 #students h4 {
@@ -808,9 +817,9 @@ section {
   margin-right: 0;
 }
 
-/* .program .program-item {
-  margin-top: 50px;
-} */
+.program .program-item {
+  margin-top: 20px;
+}
 
 .program .program-content {
   /* margin-left: 300px; */
