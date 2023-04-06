@@ -398,13 +398,13 @@ h6 {
 #hero {
   width: 100%;
   height: 100dvh;
-  /* background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   position: relative;
-  padding: 0; */
-  background: url("../img/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 0;
 }
 
 .bison {
@@ -415,7 +415,7 @@ h6 {
   object-fit: contain;
 }
 
-/* #hero:before {
+#hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -423,7 +423,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
-} */
+}
 
 #hero .container {
   padding-top: 10px;
