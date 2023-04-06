@@ -401,9 +401,6 @@ h6 {
   /* background-color: #242526; */
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   position: relative;
   padding: 0;
 }
