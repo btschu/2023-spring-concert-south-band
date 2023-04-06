@@ -400,8 +400,9 @@ h6 {
   height: 100dvh;
   /* background-color: #242526; */
   background: url("../img/hero-bg.jpg") top center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
   background-size: cover;
-  background-attachment: scroll;
   position: relative;
   padding: 0;
 }
